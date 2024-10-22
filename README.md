@@ -4,8 +4,8 @@
 
 ## Features
 
-- Automatic transcription of YouTube videos.
-- Summarization of the transcribed video content.
+- Automatic transcription of Audio Files.
+- Summarization of the transcribed audio content.
 - Support for multiple transcription models via Whisper.
 - Automatic language detection.
 - Generation of organized summaries using Google Generative AI API.
@@ -16,7 +16,6 @@
 - The following libraries must be installed:
   - `whisper`
   - `gemini_summarize`
-  - `pytubefix`
   - `google-generativeai`
 - **FFMPEG** must be installed on your system to properly process audio files.
 
@@ -50,8 +49,8 @@ In addition to the listed libraries, you will need to configure the **Google API
 
 ## Funcionalidades
 
-- Transcrição automática de vídeos do YouTube.
-- Resumo do conteúdo do vídeo transcrito.
+- Transcrição automática de arquivos de audio.
+- Resumo do conteúdo do audio transcrito.
 - Suporte a múltiplos modelos de transcrição via Whisper.
 - Detecção automática de linguagem.
 - Geração de resumos organizados usando a API do Google Generative AI.
@@ -62,7 +61,6 @@ In addition to the listed libraries, you will need to configure the **Google API
 - As seguintes bibliotecas devem ser instaladas:
   - `whisper`
   - `gemini_summarize`
-  - `pytubefix`
   - `google-generativeai`
 - **FFMPEG** deve estar instalado no seu sistema para processar os arquivos de áudio corretamente.
 
@@ -121,12 +119,7 @@ No código, a chave será lida e configurada automaticamente para a comunicaçã
     turbo   | 809 M         | N/A turbo        | ~6 GB           | ~8x
     ```
 
-3. Insira o link do vídeo do YouTube que deseja transcrever e resumir:
-    ```
-    Escreva o link do vídeo do youtube a ser resumido
-    ```
-
-4. O Capivara fará o download do áudio, transcreverá o conteúdo e exibirá o resumo gerado automaticamente.
+3. O Capivara transcreverá o conteúdo e exibirá o resumo gerado automaticamente.
 
 ## Contribuição
 
